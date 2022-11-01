@@ -1,0 +1,8 @@
+<template>
+    <template if:true={showMainPage}>
+        <c-main-page onshowdetails={showDetails}></c-main-page>
+    </template>
+    <template if:true={showMainDetails}>
+        <c-main-details onhome={showHomePage}></c-main-details>
+    </template>
+</template>

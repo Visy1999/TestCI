@@ -1,0 +1,216 @@
+.date{
+    font-size: 220%;
+}
+.countCleaning{
+    font-size: 180%;
+}
+header {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: white;
+}
+
+.title{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 170%;
+}
+
+.main {
+    margin-left: 33%; /* change*/
+    margin-right: 33%; /* change*/
+}
+
+.information{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 130%;
+    
+}
+
+.taskList{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.taskItem{
+    padding: 10px;
+    font-size: 120%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotterButtons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mainButtons {
+    margin-top: 20px;
+}
+
+.buttonToFix {
+    width: 100%;
+    height: 70px;
+    font-size: 140%;
+    font-weight: 400;
+    background: #007bff;
+    border-radius: 15px;
+    color: white;
+}
+
+.buttonPropDet{
+    width: 100%;
+    height: 60px;
+    font-size: 140%;
+    font-weight: 400;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.buttonHome{
+    width: 100%;
+    height: 60px;
+    font-size: 140%;
+    font-weight: 400;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.fileUploader { 
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.fotterChild{
+    width: 100%;
+}
+
+
+.mobileDate{
+    font-size: 320%;
+}
+.mobileCountCleaning{
+    font-size: 380%;
+}
+
+.mobileTitle{
+    margin-top: 25px;
+    font-weight: 2000;
+    font-size: 380%;
+}
+
+.mobileMain {
+    margin-left: 10%; /* change*/
+    margin-right: 10%; /* change*/
+}
+
+.mobileTaskItem { 
+    padding: 10px;
+    font-size: 320%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobileInformation {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 280%;
+}
+
+.mobileButtonHome{
+    width: 100%;
+    height: 120px;
+    font-size: 240%;
+    font-weight: 800;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+
+
+.mobileMainButtons {
+    margin-top: 40px;
+}
+
+.mobileButtonToFix {
+    width: 100%;
+    height: 140px;
+    font-size: 240%;
+    font-weight: 800;
+    background: #007bff;
+    border-radius: 15px;
+    color: white;
+}
+
+.mobileButtonPropDet{
+    width: 100%;
+    height: 120px;
+    font-size: 240%;
+    font-weight: 800;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    height: 35px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #15bd29;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 10px;
+  }
+
+

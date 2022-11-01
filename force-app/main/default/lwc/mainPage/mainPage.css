@@ -1,0 +1,109 @@
+.cleaning {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20%; /* change*/
+    margin-right: 20%; /* change*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.details { 
+    margin-left: 15px;
+}
+
+.date {
+    font-size: 220%;
+}
+.countCleaning {
+    font-size: 180%;
+}
+header {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: white;
+}
+.picture{
+    width: 250px; /* change*/
+    height: 150px; /* change*/
+}
+.mainCleanInformation{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameCleaning {
+    position: relative;
+    color: #00a650;
+	cursor: pointer;
+	line-height: 1.3;
+	text-decoration: none;
+    font-size: 130%;
+}
+.timeCleaning {
+    font-size: 120%;
+}
+
+.description { 
+    font-size: 110%;
+}
+.nameCleaning:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px; 
+	background-color: #00a650; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+.nameCleaning:hover:after,
+.nameCleaning:focus:after {
+	width: 100%;
+}
+
+
+
+.mobileCleaning {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 5%; /* change*/
+    margin-right: 5%; /* change*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.mobilePicture{
+    width: 100%; /* change*/
+    height: 100%; /* change*/
+}
+
+.mobileNameCleaning {
+    position: relative;
+    color: #00a650;
+	cursor: pointer;
+	line-height: 1.3;
+	text-decoration: none;
+    font-size: 230%;
+}
+.mobileTimeCleaning {
+    font-size: 220%;
+}
+
+.mobileDescription { 
+    font-size: 210%;
+}
+
+.mobileDate {
+    font-size: 320%;
+}
+.mobileCountCleaning {
+    font-size: 380%;
+}

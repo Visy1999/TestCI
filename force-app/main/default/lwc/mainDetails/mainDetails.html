@@ -1,0 +1,49 @@
+<template>
+    <header>
+        <div class="date"><h1>Krolewska, 17-20</h1></div>
+        <div class="countCleaning"> 15:00 </div>
+    </header>
+    <div class="main">
+        <div class="title">Important Information</div>
+        <div class="information">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ipsum id, labore earum excepturi quia obcaecati hic rerum perferendis consequuntur beatae quam nam eum voluptatibus at corporis optio distinctio aliquam?
+        </div>
+        <div class="title">Task List</div>
+        <div class="taskList">
+            <div class="taskItem">
+                <div>Name Task</div>
+                <div><input type="checkbox" id="switch1" /><label for="switch1">Toggle</label></div>
+            </div>
+            <div class="taskItem">
+                <div>Name Task</div>
+                <div><input type="checkbox" id="switch" /><label for="switch"></label></div>
+            </div>
+            <div class="taskItem">
+                <div>Name Task</div>
+                <div><input type="checkbox" id="switch2" /><label for="switch2"></label></div>
+            </div>
+        </div>
+
+        <div class="title">Upload photo after cleaning</div>
+            <div class="fileUploader">
+                <lightning-file-upload
+                name="fileUploader"
+                record-id={recId}
+                onuploadfinished={handleUploadFinished}
+                multiple>
+                </lightning-file-upload>
+            </div>
+
+        <div class="mainButtons">
+            <div class="topButtons">
+                <button class="slds-button slds-button_neutral buttonToFix" onclick={createCase}>To Fix</button>
+            </div>
+            <div class="fotterButtons">
+                <div class="fotterChild"><button class="slds-button slds-button_neutral buttonPropDet">Property details</button></div>
+                <div class="fotterChild"><button class="slds-button slds-button_neutral buttonHome" onclick={showHomePage}>Home</button></div>
+            </div>
+        </div>
+        
+        
+    </div>
+</template>
